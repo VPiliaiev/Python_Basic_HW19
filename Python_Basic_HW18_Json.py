@@ -8,7 +8,4 @@ input_data = {123456: ('Bob', 18),
               125634: ('James', 34)}
 with open('text.json', 'w') as file:
     json.dump(input_data, file)
-with open('text.json') as file:
-    data = json.load(file)
-    print(data)
-    
+
